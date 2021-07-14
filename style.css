@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* header section */
 header{
     width: 100%;
@@ -96,6 +97,8 @@ nav ul li a{
     width: 100%;
     transform: translateY(-15px);
 }
+
+
 /* main section */
 main{
     margin: 70px 210px 0 180px;
@@ -136,6 +139,8 @@ main{
     color: #6C6C6C;
     margin-top: 10px;
 }
+
+
 /* highlight section */
 .highlight{
     margin: 165px 156px 0 182px;
@@ -164,7 +169,8 @@ main{
     width: 100%;
 }
 
-/* ranking */
+
+/* ranking section*/
 .small_container{
     max-width: 1080px;
     margin: auto;
@@ -236,6 +242,7 @@ hr{
     margin: auto;
 }
 
+
 /* partnarship */
 .small_container h1{
     text-align: center;
@@ -251,13 +258,6 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 190px;
 }
-
-
-
-
-
-
-
 
 
 /* footer section */
@@ -299,10 +299,11 @@ footer{
 }
 
 
-/*----------------------------
+/*----------------------------------------------------------
 media quari for mobail divices 
------------------------------- */
+------------------------------------------------------------ */
 @media only screen and (max-width:680px){
+    
     /* header section */
     nav img{
         display: block;
@@ -356,7 +357,8 @@ media quari for mobail divices
     .highlight_col_2 h1{
         font-size: 30px;
     }
-    /* ranking */
+
+    /* ranking section*/
     .teams p{
         display: none;
     }
@@ -366,13 +368,15 @@ media quari for mobail divices
     table{
         margin-top: 30px;
     }
-    /* partnarship */
+
+    /* partnarship section*/
     .partnarship_img{
         grid-template-columns: repeat(1, 1fr);
     }
     .partnarship_img img{
         margin: auto;
     }
+
     /* footer section */
     footer{
         margin: 25px 18px 187px;
@@ -383,10 +387,11 @@ media quari for mobail divices
     }
 }
 
-/*----------------------------------------------
+/*-------------------------------------------------------------
 media quari for tablet and larger mobail divices 
------------------------------------------------- */
+--------------------------------------------------------------- */
 @media only screen and (min-width:681px) and (max-width:968px){
+    
     /* header section */
     nav img{
         display: block;
@@ -441,7 +446,7 @@ media quari for tablet and larger mobail divices
         font-size: 30px;
         line-height: 40px;
     }
-    /* partnarship */
+    /* partnarship section*/
     .partnarship_img{
         grid-template-columns: repeat(2, 1fr);
 
@@ -449,6 +454,7 @@ media quari for tablet and larger mobail divices
     .partnarship_img img{
         margin: auto;
     }
+
     /* footer section */
     footer{
         margin: 25px 18px 187px;
@@ -458,12 +464,12 @@ media quari for tablet and larger mobail divices
         margin: 0 auto;
     }
 }
-/*----------------------------------------------
+/*------------------------------------------------------------------
 media quari for laptop and larger tablet divices 
------------------------------------------------- */
+------------------------------------------------------------------- */
 @media only screen and (min-width:969px) and (max-width:1269px){
-    /* header section */
     
+    /* header section */
     .header{
         padding-left: 16px;
         padding-right: 21px;
@@ -507,6 +513,7 @@ media quari for laptop and larger tablet divices
         min-width: 270px;
         margin-bottom: 29px;
     }
+
     /* footer section */
     footer{
         margin: 25px 18px 187px;
@@ -517,9 +524,9 @@ media quari for laptop and larger tablet divices
     }
 }
 
-/*----------------------------
+/*-----------------------------------------------
 media quari for extra large divices 
------------------------------- */
+------------------------------------------------- */
 @media only screen and (min-width:1300px) and (max-width:4000px){
     .player{
         max-width: 330px;
